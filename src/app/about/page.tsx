@@ -29,10 +29,10 @@ export default function AboutPage() {
         <h2 className="text-3xl font-semibold mb-6">Our Story</h2>
         <p className="text-gray-400 leading-relaxed mb-4">
           CloudatHand was founded with a vision to bridge the gap between complex technologies and practical solutions.
-          Our journey started with a simple mission — to empower businesses to unlock their potential through custom software, AI innovation, and secure digital ecosystems.
+          Our journey started with a simple mission &mdash; to empower businesses to unlock their potential through custom software, AI innovation, and secure digital ecosystems.
         </p>
         <p className="text-gray-400 leading-relaxed">
-          Over the years, we've evolved into a team of passionate engineers, designers, and strategists who believe in the transformative power of technology.
+          Over the years, we&rsquo;ve evolved into a team of passionate engineers, designers, and strategists who believe in the transformative power of technology.
         </p>
       </motion.section>
 
@@ -64,7 +64,7 @@ export default function AboutPage() {
         transition={{ duration: 0.8 }}
         className="max-w-4xl text-center"
       >
-        <h2 className="text-3xl font-semibold mb-6">Vision & Mission</h2>
+        <h2 className="text-3xl font-semibold mb-6">Vision &amp; Mission</h2>
         <p className="text-gray-400 leading-relaxed">
           To become a global leader in digital transformation by delivering innovative, scalable, and secure technology solutions that drive business success.
         </p>

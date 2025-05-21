@@ -21,7 +21,7 @@ export default function Contact() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          We'd love to hear from you! Fill out the form below and our team will reach out shortly.
+          We&rsquo;d love to hear from you! Fill out the form below and our team will reach out shortly.
         </motion.p>
 
         <motion.form
