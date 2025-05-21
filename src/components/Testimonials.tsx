@@ -26,7 +26,6 @@ export default function Testimonials() {
     <section className="w-full py-20 bg-gradient-to-r from-purple-900 via-fuchsia-700 to-blue-900 animate-gradient text-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
         
-        
         <motion.h2
           className="text-4xl md:text-5xl font-bold mb-12"
           initial={{ opacity: 0, y: 50 }}
@@ -36,7 +35,6 @@ export default function Testimonials() {
           What Our Clients Say
         </motion.h2>
 
-        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {testimonials.map((testimonial, index) => (
             <motion.div
@@ -46,7 +44,9 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
-              <p className="text-lg text-gray-300 italic mb-6">"{testimonial.quote}"</p>
+              <p className="text-lg text-gray-300 italic mb-6">
+                &ldquo;{testimonial.quote}&rdquo;
+              </p>
               <h4 className="text-white font-bold text-md">{testimonial.name}</h4>
             </motion.div>
           ))}
