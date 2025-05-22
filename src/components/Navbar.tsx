@@ -57,10 +57,10 @@ export default function Navbar() {
       transition={{ duration: 0.8 }}
     >
       {/* Logo */}
-      <div className="flex items-center gap-2">
-        <Image src="/logo1.png" alt="CloudatHand Logo" width={40} height={40} />
-        <h1 className="text-2xl font-bold text-white">CloudatHand</h1>
-      </div>
+      <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
+        <Image src="/logo1.png" alt="CloudatHand Logo" width={60} height={60} />
+        <h1 className="text-3xl font-bold text-white">CloudatHand</h1>
+      </Link>
 
       {/* Nav Links and Social Icons */}
       <div className="flex items-center gap-8 text-white relative">

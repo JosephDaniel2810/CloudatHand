@@ -22,16 +22,6 @@ export default function Contact() {
         />
       </motion.div>
 
-      
-      <motion.a
-        href="#contact-form"
-        className="inline-block w-max mx-auto bg-pink-500 hover:bg-pink-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition duration-300"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.3 }}
-      >
-        Reach Out To Us!
-      </motion.a>
     </section>
   );
 }
