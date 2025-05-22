@@ -6,9 +6,9 @@
 
 ## 🚀 Live Demo
 
-🌐 [View Deployed Site](https://cloudat-hand.vercel.app/)
+🌐 [View Deployed Site]
 
-> _(Replace with your actual Vercel deployment link)_
+> _(https://cloudat-hand.vercel.app/)_
 
 ---
 
