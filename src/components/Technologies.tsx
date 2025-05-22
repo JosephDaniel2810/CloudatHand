@@ -8,7 +8,7 @@ const techStack = [
         { name: "Next.js", logo: "/Next.js.png" },
         { name: "React", logo: "/React.svg" },
         { name: "AWS", logo: "/aws.svg" },
-        { name: "Python", logo: "/Python.svg" },
+        { name: "Python", logo: "/python.jpg" },
         { name: "Node.js", logo: "/Node.js.png" },
         { name: "PostgreSQL", logo: "/Postgresql.svg" },
       
