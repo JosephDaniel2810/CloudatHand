@@ -23,7 +23,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 1 }}
       >
-        <h2 className="text-4xl md:text-6xl font-bold mb-4 text-center">
+        <h2 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-4 text-center">
           Powering the Digital Evolution
         </h2>
         <p className="text-lg md:text-xl max-w-xl w-full text-center text-gray-300 mb-6 mx-auto">

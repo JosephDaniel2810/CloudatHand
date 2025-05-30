@@ -44,7 +44,7 @@ export default function Technologies() {
                 height={100}
                 className="object-contain"
               />
-              <p className="mt-2 text-sm md:text-base text-blue-400 drop-shadow-md">{tech.name}</p>
+              <p className="mt-2 text-sm md:text-base font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-md">{tech.name}</p>
             </motion.div>
           ))}
         </div>
