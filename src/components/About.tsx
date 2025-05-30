@@ -39,7 +39,7 @@ export default function About() {
             At CloudatHand, we are passionate about building future-proof technology solutions that empower businesses to lead in the digital era.<br /><br />
             We specialize in custom software development, cloud services, and digital innovation, combining technical expertise with creative thinking.<br /><br />
             Our team is committed to delivering scalable, intelligent, and transformative products that help organizations thrive in an ever-evolving market.<br /><br />
-            At CloudatHand, innovation isn't just a goal — it's in our DNA.
+            At CloudatHand, innovation isn&apos;t just a goal — it&apos;s in our DNA.
           </p>
 
           
