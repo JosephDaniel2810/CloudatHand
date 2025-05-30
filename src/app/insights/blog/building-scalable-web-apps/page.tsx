@@ -39,7 +39,7 @@ export default function BlogPost() {
             <p className="text-sm text-gray-400 mb-4">By CloudatHand Team | May 10, 2025</p>
             <article className="prose prose-invert max-w-none text-lg mb-8">
               <p>
-                In today's fast-paced digital world, scalability is a key factor for any successful web application. At CloudatHand, we leverage the power of Next.js to build web apps that are not only fast and SEO-optimized, but also highly scalable and maintainable.
+                In today&apos;s fast-paced digital world, scalability is a key factor for any successful web application. At CloudatHand, we leverage the power of Next.js to build web apps that are not only fast and SEO-optimized, but also highly scalable and maintainable.
               </p>
               <h2>Why Next.js?</h2>
               <ul>
@@ -55,7 +55,7 @@ export default function BlogPost() {
               </p>
               <h2>Results</h2>
               <p>
-                Clients have seen up to 3x faster load times and a 40% increase in organic traffic after migrating to our Next.js solutions. Whether you're a startup or an enterprise, we can help you scale with confidence.
+                Clients have seen up to 3x faster load times and a 40% increase in organic traffic after migrating to our Next.js solutions. Whether you&apos;re a startup or an enterprise, we can help you scale with confidence.
               </p>
             </article>
             <Link href="/insights/blog" className="text-pink-400 hover:underline">← Back to Blog</Link>

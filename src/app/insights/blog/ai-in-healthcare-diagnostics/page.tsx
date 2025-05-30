@@ -48,7 +48,7 @@ export default function BlogPost() {
               <h2>Our Solution</h2>
               <ul>
                 <li>Developed a custom machine learning model trained on thousands of annotated images</li>
-                <li>Integrated the model into the hospital's workflow with a user-friendly interface</li>
+                <li>Integrated the model into the hospital&apos;s workflow with a user-friendly interface</li>
                 <li>Ensured HIPAA compliance and data security</li>
               </ul>
               <h2>Impact</h2>
