@@ -59,11 +59,11 @@ export default function Navbar() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center justify-between gap-2 md:gap-0">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
-          <Image src="/logo1.png" alt="CloudatHand Logo" width={60} height={60} />
-          <h1 className="text-3xl font-bold text-white">CloudatHand</h1>
+        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition min-w-0">
+          <Image src="/logo1.png" alt="CloudatHand Logo" width={48} height={48} className="min-w-[40px] w-12 h-12 object-contain" />
+          <h1 className="text-2xl md:text-3xl font-bold text-white truncate">CloudatHand</h1>
         </Link>
 
         {/* Desktop nav */}

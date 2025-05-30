@@ -18,15 +18,15 @@ export default function Hero() {
 
       {/* Hero Content */}
       <motion.div
-        className="relative z-10 px-4"
+        className="relative z-10 px-4 flex flex-col items-center justify-center mx-auto"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 1 }}
       >
-        <h2 className="text-4xl md:text-6xl font-bold mb-4">
+        <h2 className="text-4xl md:text-6xl font-bold mb-4 text-center">
           Powering the Digital Evolution
         </h2>
-        <p className="text-lg md:text-xl max-w-2xl text-gray-300 mb-6">
+        <p className="text-lg md:text-xl max-w-xl w-full text-center text-gray-300 mb-6 mx-auto">
           CloudatHand is your gateway to futuristic, scalable tech solutions.
         </p>
 
