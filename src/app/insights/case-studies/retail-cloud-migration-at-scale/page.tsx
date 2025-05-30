@@ -29,7 +29,7 @@ export default function CaseStudy() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <motion.h1
-              className="text-4xl font-bold mb-4"
+              className="text-4xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-4"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}

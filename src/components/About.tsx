@@ -32,14 +32,14 @@ export default function About() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h3 className="text-4xl md:text-5xl font-bold mb-6">
+          <h3 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-6">
             About Us
           </h3>
-          <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-6">
+          <p className="text-lg md:text-xl text-blue-400 drop-shadow-md leading-relaxed mb-6">
             At CloudatHand, we are passionate about building future-proof technology solutions that empower businesses to lead in the digital era.<br /><br />
             We specialize in custom software development, cloud services, and digital innovation, combining technical expertise with creative thinking.<br /><br />
             Our team is committed to delivering scalable, intelligent, and transformative products that help organizations thrive in an ever-evolving market.<br /><br />
-            At CloudatHand, innovation isn’t just a goal — it’s in our DNA.
+            At CloudatHand, innovation isn't just a goal — it's in our DNA.
           </p>
 
           

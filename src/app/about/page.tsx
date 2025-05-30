@@ -13,7 +13,7 @@ export default function AboutPage() {
         transition={{ duration: 0.8 }}
         className="text-center mb-16"
       >
-        <h1 className="text-5xl font-bold mb-4">About CloudatHand</h1>
+        <h1 className="text-5xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-4">About CloudatHand</h1>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto">
           Empowering businesses through next-generation technology and innovation.
         </p>
@@ -26,7 +26,7 @@ export default function AboutPage() {
         transition={{ duration: 0.8 }}
         className="max-w-4xl mb-16"
       >
-        <h2 className="text-3xl font-semibold mb-6">Our Story</h2>
+        <h2 className="text-3xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-6">Our Story</h2>
         <p className="text-gray-400 leading-relaxed mb-4">
           CloudatHand was founded with a vision to bridge the gap between complex technologies and practical solutions.
           Our journey started with a simple mission &mdash; to empower businesses to unlock their potential through custom software, AI innovation, and secure digital ecosystems.
@@ -64,7 +64,7 @@ export default function AboutPage() {
         transition={{ duration: 0.8 }}
         className="max-w-4xl text-center"
       >
-        <h2 className="text-3xl font-semibold mb-6">Vision &amp; Mission</h2>
+        <h2 className="text-3xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-6">Vision &amp; Mission</h2>
         <p className="text-gray-400 leading-relaxed">
           To become a global leader in digital transformation by delivering innovative, scalable, and secure technology solutions that drive business success.
         </p>

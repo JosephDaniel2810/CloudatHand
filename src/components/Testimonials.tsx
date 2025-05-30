@@ -27,7 +27,7 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-6 text-center">
         
         <motion.h2
-          className="text-4xl md:text-5xl font-bold mb-12"
+          className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-12"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -47,7 +47,7 @@ export default function Testimonials() {
               <p className="text-lg text-gray-300 italic mb-6">
                 &ldquo;{testimonial.quote}&rdquo;
               </p>
-              <h4 className="text-white font-bold text-md">{testimonial.name}</h4>
+              <h4 className="text-blue-400 font-extrabold text-md drop-shadow-md">{testimonial.name}</h4>
             </motion.div>
           ))}
         </div>

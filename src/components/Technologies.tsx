@@ -20,7 +20,7 @@ export default function Technologies() {
       <div className="max-w-7xl mx-auto px-6 text-center">
         
         <motion.h2 
-          className="text-4xl md:text-5xl font-bold mb-12"
+          className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-12"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -44,7 +44,7 @@ export default function Technologies() {
                 height={100}
                 className="object-contain"
               />
-              <p className="mt-2 text-sm md:text-base">{tech.name}</p>
+              <p className="mt-2 text-sm md:text-base text-blue-400 drop-shadow-md">{tech.name}</p>
             </motion.div>
           ))}
         </div>

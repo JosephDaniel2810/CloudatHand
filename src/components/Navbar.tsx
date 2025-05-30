@@ -63,7 +63,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition min-w-0">
           <Image src="/logo1.png" alt="CloudatHand Logo" width={48} height={48} className="min-w-[40px] w-12 h-12 object-contain" />
-          <h1 className="text-2xl md:text-3xl font-bold text-white truncate">CloudatHand</h1>
+          <h1 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg tracking-tight truncate">CloudatHand</h1>
         </Link>
 
         {/* Desktop nav */}
@@ -75,8 +75,8 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown(title)}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="flex items-center gap-1 font-semibold">
-                {title} <IoIosArrowDown size={16} />
+              <button className="flex items-center gap-1 font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg tracking-tight">
+                {title} <IoIosArrowDown size={16} className="text-pink-400" />
               </button>
 
               <AnimatePresence>
@@ -107,10 +107,10 @@ export default function Navbar() {
 
           {/* Social Icons */}
           <div className="flex items-center gap-4">
-            <FaFacebook size={20} className="hover:text-pink-400" />
-            <FaTwitter size={20} className="hover:text-pink-400" />
-            <FaInstagram size={20} className="hover:text-pink-400" />
-            <FaLinkedin size={20} className="hover:text-pink-400" />
+            <FaFacebook size={20} className="text-pink-400 hover:text-pink-400" />
+            <FaTwitter size={20} className="text-pink-400 hover:text-pink-400" />
+            <FaInstagram size={20} className="text-pink-400 hover:text-pink-400" />
+            <FaLinkedin size={20} className="text-pink-400 hover:text-pink-400" />
           </div>
         </div>
 
@@ -138,9 +138,9 @@ export default function Navbar() {
               <div key={title} className="mb-4">
                 <button
                   onClick={() => setActiveDropdown((cur) => (cur === title ? null : title))}
-                  className="w-full flex justify-between items-center text-white font-semibold py-2"
+                  className="w-full flex justify-between items-center font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg tracking-tight py-2"
                 >
-                  {title} <IoIosArrowDown size={16} className={activeDropdown === title ? "rotate-180 transform" : ""} />
+                  {title} <IoIosArrowDown size={16} className={`text-pink-400 ${activeDropdown === title ? 'rotate-180 transform' : ''}`} />
                 </button>
                 <AnimatePresence>
                   {activeDropdown === title && (
@@ -172,10 +172,10 @@ export default function Navbar() {
 
             {/* Mobile social icons */}
             <div className="flex justify-center gap-6 pt-4 border-t border-gray-700">
-              <FaFacebook size={20} className="hover:text-pink-400" />
-              <FaTwitter size={20} className="hover:text-pink-400" />
-              <FaInstagram size={20} className="hover:text-pink-400" />
-              <FaLinkedin size={20} className="hover:text-pink-400" />
+              <FaFacebook size={20} className="text-pink-400 hover:text-pink-400" />
+              <FaTwitter size={20} className="text-pink-400 hover:text-pink-400" />
+              <FaInstagram size={20} className="text-pink-400 hover:text-pink-400" />
+              <FaLinkedin size={20} className="text-pink-400 hover:text-pink-400" />
             </div>
           </motion.nav>
         )}

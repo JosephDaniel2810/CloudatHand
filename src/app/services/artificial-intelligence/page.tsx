@@ -11,7 +11,7 @@ export default function AIPage() {
           <Image src="/ai.jpg" alt="AI Solutions" width={320} height={200} className="rounded-lg shadow-xl w-full h-auto object-cover" />
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
-          <h1 className="text-4xl font-bold mb-4">Artificial Intelligence (AI/ML)</h1>
+          <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-4">Artificial Intelligence (AI/ML)</h1>
           <p className="text-lg text-gray-300 leading-relaxed mb-4">
             Unlock powerful business insights using AI/ML. We develop machine learning pipelines, predictive analytics models, chatbots, and computer vision systems tailored to your data — empowering your decision-making.
           </p>
@@ -27,7 +27,7 @@ export default function AIPage() {
 
       {/* Key Benefits Section */}
       <section className="max-w-5xl mx-auto mt-16 px-4">
-        <h2 className="text-2xl font-bold mb-8 text-center">Key Benefits</h2>
+        <h2 className="text-2xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-8 text-center">Key Benefits</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 30 }} transition={{ duration: 0.5 }} className="bg-gray-900 bg-opacity-70 rounded-lg p-6 flex flex-col items-center text-center shadow-md">
             <svg className="text-pink-400 mb-3" width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 17.93V20h-2v-.07A8.001 8.001 0 014.07 13H4v-2h.07A8.001 8.001 0 0111 4.07V4h2v.07A8.001 8.001 0 0119.93 11H20v2h-.07A8.001 8.001 0 0113 19.93z"></path></svg>

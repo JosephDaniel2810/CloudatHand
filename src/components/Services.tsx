@@ -64,7 +64,7 @@ export default function Services() {
         
         
         <motion.h2
-          className="text-4xl md:text-5xl font-bold mb-12"
+          className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-12"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -90,7 +90,7 @@ export default function Services() {
                   >
                     {service.icon}
                   </motion.div>
-                  <h3 className="text-xl font-bold mb-2">{service.title}</h3>
+                  <h3 className="text-xl font-extrabold text-fuchsia-400 drop-shadow-md mb-2">{service.title}</h3>
                   <p className="text-gray-300 text-sm">{service.description}</p>
                 </div>
               </motion.div>

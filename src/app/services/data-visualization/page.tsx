@@ -11,7 +11,7 @@ export default function DataVisualization() {
           <Image src="/visualization.png" alt="Data Visualization" width={320} height={180} className="rounded-lg shadow-xl object-contain mx-auto mb-4" />
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
-          <h1 className="text-4xl font-bold mb-4">Data Visualization</h1>
+          <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-4">Data Visualization</h1>
           <p className="text-lg text-gray-300 leading-relaxed mb-4">
             Make your data meaningful with dashboards, charts, and interactive reports. We use tools like Tableau, Power BI, and D3.js to create intuitive visual interfaces for exploring KPIs, trends, and hidden patterns.
           </p>
@@ -27,7 +27,7 @@ export default function DataVisualization() {
 
       {/* Key Benefits Section */}
       <section className="max-w-5xl mx-auto mt-16 px-4">
-        <h2 className="text-2xl font-bold mb-8 text-center">Key Benefits</h2>
+        <h2 className="text-2xl font-extrabold bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg mb-8 text-center">Key Benefits</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 30 }} transition={{ duration: 0.5 }} className="bg-gray-900 bg-opacity-70 rounded-lg p-6 flex flex-col items-center text-center shadow-md">
             <svg className="text-pink-400 mb-3" width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M3 17h18v2H3v-2zm0-5h12v2H3v-2zm0-5h8v2H3V7z"></path></svg>
