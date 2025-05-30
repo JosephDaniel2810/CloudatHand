@@ -10,21 +10,21 @@ const caseStudies = [
     description: "We developed a secure AI tool that improves diagnostic accuracy and reduced processing time by 40% for hospitals across three continents.",
     image: "/insights/hospital-ai.png",
     date: "Feb 12, 2025",
-    href: "#",
+    slug: "ai-diagnostic-system-for-hospital-networks",
   },
   {
     title: "Retail Cloud Migration at Scale",
     description: "CloudatHand migrated a national e-commerce retailer to AWS microservices architecture with zero downtime and 45% faster deployments.",
     image: "/insights/cloud-migration.png",
     date: "Jan 22, 2025",
-    href: "#",
+    slug: "retail-cloud-migration-at-scale",
   },
   {
     title: "Custom ERP for Manufacturing Firm",
     description: "We delivered a tailored ERP solution that unified operations, inventory, and HR across five global factories with real-time analytics.",
     image: "/insights/erp.png",
     date: "Nov 5, 2024",
-    href: "#",
+    slug: "custom-erp-for-manufacturing-firm",
   },
 ];
 
@@ -47,8 +47,9 @@ export default function CaseStudies() {
               key={index}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="bg-gray-900 rounded-lg overflow-hidden shadow-lg"
+              className="bg-gray-900 rounded-lg overflow-hidden shadow-lg cursor-pointer"
             >
               <Image
                 src={caseStudy.image}
@@ -62,7 +63,7 @@ export default function CaseStudies() {
                 <h2 className="text-xl font-semibold mb-3">{caseStudy.title}</h2>
                 <p className="text-gray-300 mb-4">{caseStudy.description}</p>
                 <Link
-                  href={caseStudy.href}
+                  href={`/insights/case-studies/${caseStudy.slug}`}
                   className="text-pink-400 hover:underline font-medium"
                 >
                   Read More →
