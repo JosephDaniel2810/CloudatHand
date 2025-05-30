@@ -1,9 +1,26 @@
 'use client';
 
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Footer() {
   return (
-    <footer className="bg-[#0a0117] text-[#cccccc] py-6">
-      <div className="max-w-7xl mx-auto text-center text-gray-600 text-sm">
+    <footer className="bg-gradient-to-br from-black via-gray-900 to-black text-[#cccccc] py-8 mt-12 w-full">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 w-full gap-6 md:gap-0">
+        {/* Logo and company name */}
+        <div className="flex items-center gap-3 min-w-0 md:justify-start w-full md:w-auto mb-6 md:mb-0">
+          <Image src="/logo1.png" alt="CloudatHand Logo" width={48} height={48} className="min-w-[40px] w-12 h-12 object-contain" />
+          <span className="text-xl font-bold text-white truncate">CloudatHand</span>
+        </div>
+        {/* Useful Links */}
+        <nav className="flex flex-wrap gap-6 text-sm justify-center md:justify-end w-full md:w-auto">
+          <Link href="/services/web-development" className="hover:text-pink-400 transition">Services</Link>
+          <Link href="/industries/healthcare" className="hover:text-pink-400 transition">Industries</Link>
+          <Link href="/about" className="hover:text-pink-400 transition">About</Link>
+          <Link href="/contact" className="hover:text-pink-400 transition">Contact</Link>
+        </nav>
+      </div>
+      <div className="max-w-7xl mx-auto text-center text-gray-600 text-xs mt-6">
         © {new Date().getFullYear()} CloudatHand. All rights reserved.
       </div>
     </footer>
