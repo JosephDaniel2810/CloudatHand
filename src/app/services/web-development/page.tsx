@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { FaRocket, FaPalette, FaMobileAlt, FaSearch, FaCogs, FaUsers } from "react-icons/fa";
+import { FaRocket, FaPalette, FaMobileAlt, FaSearch } from "react-icons/fa";
 import Link from "next/link";
 
 export default function WebDevelopment() {
