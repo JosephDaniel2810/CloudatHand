@@ -10,21 +10,21 @@ const posts = [
     description: "Learn how we use Next.js to create high-performance, SEO-optimized apps for clients.",
     image: "/insights/nextjs.png",
     date: "May 10, 2025",
-    href: "#",
+    slug: "building-scalable-web-apps",
   },
   {
     title: "Case Study: AI in Healthcare Diagnostics",
     description: "How CloudatHand developed an ML model to assist radiologists with 90%+ accuracy.",
     image: "/insights/ai-healthcare.png",
     date: "April 20, 2025",
-    href: "#",
+    slug: "ai-in-healthcare-diagnostics",
   },
   {
     title: "5 Cloud Patterns Every CTO Should Know",
     description: "Serverless, microservices, and edge computing: why these cloud patterns matter in 2025.",
     image: "/insights/cloud-patterns.png",
     date: "March 30, 2025",
-    href: "#",
+    slug: "cloud-patterns-every-cto-should-know",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function Blog() {
                 <h2 className="text-xl font-semibold mb-3">{post.title}</h2>
                 <p className="text-gray-300 mb-4">{post.description}</p>
                 <Link
-                  href={post.href}
+                  href={`/insights/blog/${post.slug}`}
                   className="text-pink-400 hover:underline font-medium"
                 >
                   Read More →
