@@ -47,8 +47,9 @@ export default function Whitepapers() {
               key={index}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="bg-gray-900 rounded-lg overflow-hidden shadow-lg"
+              className="bg-gray-900 rounded-lg overflow-hidden shadow-lg cursor-pointer"
             >
               <Image
                 src={wp.image}
