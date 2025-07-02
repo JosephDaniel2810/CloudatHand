@@ -36,7 +36,8 @@ export default function Chatbot() {
       const botMessage: Message = { role: 'assistant', content: data.response };
       setMessages(prev => [...prev, botMessage]);
       setInput('');
-    } catch (err) {
+    } catch (error) {
+      console.error('Chat error:', error);
       setMessages(prev => [
         ...prev,
         { role: 'assistant', content: '❌ Sorry, something went wrong.' }
